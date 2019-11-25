@@ -14,13 +14,20 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
       <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="netcore-5.0">
+      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -68,6 +75,10 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -142,6 +153,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
@@ -212,6 +227,10 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -284,6 +303,9 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+      </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Obsolete("The DynData registry key works only on Win9x, which is not supported by this version of the .NET Framework.  Use the PerformanceData registry key instead.  This property will be removed from a future version of the framework.")</AttributeName>
@@ -355,6 +377,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -421,6 +447,10 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -492,6 +522,10 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -577,6 +611,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -647,6 +685,10 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -725,6 +767,10 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">

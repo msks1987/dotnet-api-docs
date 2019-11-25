@@ -271,10 +271,10 @@
 
 -or-
 
-The <paramref name="hashAlgorithm"/> parameter does not specify a hash.
+The <paramref name="hashAlgorithm" /> parameter does not specify a hash.
 </exception>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="otherPartyPublicKey" /> is <see langword="null"/>.</exception>
+          <paramref name="otherPartyPublicKey" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The curve used by <paramref name="otherPartyPublicKey" /> is different than the curve from this key.
 
 -or-
@@ -336,9 +336,9 @@ This instance represents only a public key.</exception>
 
 -or-
 
-The <paramref name="hashAlgorithm"/> parameter does not specify a hash.</exception>
+The <paramref name="hashAlgorithm" /> parameter does not specify a hash.</exception>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="otherPartyPublicKey" /> is <see langword="null"/>.</exception>
+          <paramref name="otherPartyPublicKey" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The curve used by <paramref name="otherPartyPublicKey" /> is different than the curve from this key.
 
 -or-
@@ -484,7 +484,7 @@ This instance represents only a public key.</exception>
         <exception cref="T:System.ArgumentException">
           The curve used by <paramref name="otherPartyPublicKey" /> has a different size than the curve from this key.</exception>
         <exception cref="T:System.ArgumentNullException">
-            <paramref name="otherPartyPublicKey"/>, <paramref name="prfLabel" /> or <paramref name="prfSeed" /> is <see langword="null" />.</exception>
+          <paramref name="otherPartyPublicKey" />, <paramref name="prfLabel" /> or <paramref name="prfSeed" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">
           <paramref name="prfSeed" /> is not exactly 64 bytes in length.
 
@@ -617,8 +617,8 @@ This instance represents only a public key.</exception>
       </Parameters>
       <Docs>
         <param name="disposing">
-          <see langword="true"/> to release managed and unmanaged resources; <see langword="false"/> to release only unmanaged resources.</param>
-        <summary>Releases the resources used by the current instance of the <see cref="T:System.Security.Cryptography.ECDiffieHellmanCng"/> class.</summary>
+          <see langword="true" /> to release managed and unmanaged resources; <see langword="false" /> to release only unmanaged resources.</param>
+        <summary>Releases the resources used by the current instance of the <see cref="T:System.Security.Cryptography.ECDiffieHellmanCng" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1047,7 +1047,7 @@ Setting this property to a new legal value discards the current key, but defers 
 Because key sizes do not uniquely identify elliptic curves, the use of the property setter is discouraged. To generate a new key on a specific curve, use the <xref:System.Security.Cryptography.ECDiffieHellmanCng.GenerateKey%2A> method.
 
 ]]></format>
-        </remarks> 
+        </remarks>
         <exception cref="T:System.Security.Cryptography.CryptographicException">
           <paramref name="value" /> is not permitted by <see cref="P:System.Security.Cryptography.ECDiffieHellmanCng.LegalKeySizes" />.</exception>
         <altmember cref="M:System.Security.Cryptography.ECDiffieHellmanCng.GenerateKey(System.Security.Cryptography.ECCurve)" />
@@ -1114,8 +1114,8 @@ Because key sizes do not uniquely identify elliptic curves, the use of the prope
         <ReturnType>System.Security.Cryptography.KeySizes[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the key sizes, in bits, that are supported by the <see cref="P:System.Security.Cryptography.ECDiffieHellmanCng.KeySize"/> property setter.</summary>
-        <value>An array that contains the key sizes supported by the <see cref="P:System.Security.Cryptography.ECDiffieHellmanCng.KeySize"/> property setter.</value>
+        <summary>Gets the key sizes, in bits, that are supported by the <see cref="P:System.Security.Cryptography.ECDiffieHellmanCng.KeySize" /> property setter.</summary>
+        <value>An array that contains the key sizes supported by the <see cref="P:System.Security.Cryptography.ECDiffieHellmanCng.KeySize" /> property setter.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

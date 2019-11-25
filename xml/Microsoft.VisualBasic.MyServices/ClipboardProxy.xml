@@ -14,13 +14,20 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
       <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="netcore-5.0">
+      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -85,6 +92,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -146,6 +157,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -205,6 +220,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -275,6 +294,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -337,6 +360,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -409,6 +436,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -470,6 +501,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -537,6 +572,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
@@ -596,6 +635,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -664,9 +707,16 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-5.0">
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -734,6 +784,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Specialized.StringCollection</ReturnType>
       </ReturnValue>
@@ -798,6 +852,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Image</ReturnType>
@@ -870,6 +928,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -932,6 +994,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1009,6 +1075,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1076,6 +1146,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1141,6 +1215,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1214,9 +1292,16 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-5.0">
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1289,6 +1374,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1352,6 +1441,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1430,6 +1523,10 @@ My.Computer.Clipboard.Clear()
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1502,6 +1599,10 @@ My.Computer.Clipboard.Clear()
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

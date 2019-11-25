@@ -1272,6 +1272,13 @@
     "WindowsBase",
     "WindowsFormsIntegration"
   ],
+  "netcore-5.0": [
+    "Accessibility",
+    "Microsoft.VisualBasic.Forms",
+    "System.Windows.Forms.Design",
+    "System.Windows.Forms.Design.Editors",
+    "System.Windows.Forms"
+  ],
   "netframework-1.1": [
     "Accessibility",
     "cscompmgd",
