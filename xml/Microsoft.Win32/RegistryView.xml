@@ -131,3 +131,4 @@
     </Member>
   </Members>
 </Type>
+<ReturnType>Microsoft.Win32.RegistryView</ReturnType>
